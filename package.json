@@ -1,0 +1,57 @@
+{
+  "name": "missionconnect",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "firebase": "^7.17.1",
+    "material-ui": "^0.20.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.13.1",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-firebaseui": "^4.1.0",
+    "react-native-dotenv": "^2.2.6",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.4.1",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-toastify": "^6.0.8",
+    "redux": "^4.0.5"
+  },
+   "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build:dev": "env-cmd -f .env.development.local react-scripts build",
+    "start:dev": "env-cmd -f .env.development.local react-scripts start",
+    "deploy-dev": "aws s3 sync build/ s3://icloudsigmaxm-dev",
+    "build:test": "env-cmd -f .env.testing.local react-scripts build",
+    "start:test": "env-cmd -f .env.testing.local react-scripts start",
+    "deploy:test": "aws s3 sync build/ s3://missionconnected2020-admin-test",
+    "build:staging": "env-cmd -f .env react-scripts build",
+    "start:prod": "env-cmd -f .env.production.local react-scripts start",
+    "build:prod": "env-cmd -f .env.production.local react-scripts build",
+    "deploy:prod": "aws s3 sync build/ s3://missionconnected2020-admin",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

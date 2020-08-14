@@ -1,0 +1,31 @@
+{
+    "schools" : {
+      "missionsanjosehigh" : {
+        "clubs" : {
+          "-ME0QvaFYI7fN_un0S4R" : {
+            "club_description" : "Special Officer Club #18",
+            "club_image_url" : "",
+            "club_name" : "Special Officer Club #18",
+            "club_preview" : "Special Officer Club #18",
+            "isApproved" : true,
+            "member_numbers" : 0
+          }
+        },
+        "domains" : [ "fusdk12.net", "fremont.k12.ca.us" ],
+        "school_name" : "Mission San Jose High",
+        "special_users" : [ "avaliveru@gmail.com", "siva.valiveru@gmail.com" ]
+      }
+    },
+    "users" : {
+      "moI0Eyy8mgNiEIQO7XmhIZalDeJ2" : {
+        "clubs" : {
+          "-M9eI09jpty4G3LzSZMA" : "Officer"
+        },
+        "email" : "siva.valiveru@gmail.com",
+        "fullname" : "Siva Valiveru",
+        "imgurl" : "https://lh5.googleusercontent.com/-t4njVAnjzm4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnBx3wT7d0o-TjpFy6lmDsOb0T_oQ/s200/photo.jpg",
+        "isAdmin" : true,
+        "school" : "missionsanjosehigh"
+      }
+    }
+  }
