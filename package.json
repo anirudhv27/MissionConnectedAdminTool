@@ -19,11 +19,12 @@
     "react-redux": "^7.2.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
     "react-tap-event-plugin": "^3.0.3",
     "react-toastify": "^6.0.8",
     "redux": "^4.0.5"
   },
-   "scripts": {
+  "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
     "build:dev": "env-cmd -f .env.development.local react-scripts build",

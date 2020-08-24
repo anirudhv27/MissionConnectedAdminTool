@@ -28,9 +28,6 @@ export default class Login extends React.Component {
             authenticated: true
         };
       }
-
-
-
     signInWithGoogle = (e) =>{
       e.preventDefault();
       googleAuthProvider.addScope('profile');
@@ -74,7 +71,7 @@ export default class Login extends React.Component {
                           <button onClick={this.signInWithGoogle} className="btn-google m-b-20 login100-form-btn"><img src={icongoogle} alt="GOOGLE" className="githubIcon" />Google</button>
 
                 </div>
-              }
+                }
                 </div>
 
             </div>
