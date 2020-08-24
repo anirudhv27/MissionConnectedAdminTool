@@ -142,7 +142,7 @@ deleteMatchingUserClub(club_id) {
 }
 
 delete(e, id, club_image_url) {
-  if(window.confirm('Are you sure to delete this product?')){
+  if(window.confirm('Are you sure to delete this club?')){
   this.deleteEventsMatchingClub(id);
   this.deleteMatchingUserClub(id);
 

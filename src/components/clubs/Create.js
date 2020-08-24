@@ -75,12 +75,10 @@ class Create extends Component {
   }
 
   handleChange = (e) => {
-    alert("Selecting an Image")
     if (e.target.files[0]) {
       const image = e.target.files[0];
       this.setState(() => ({ filename: image.name }));
       this.setState(() => ({ image }));
-      alert("Image Selected")
     }
   };
 
